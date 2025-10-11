@@ -1,14 +1,12 @@
 # My Backend Journey Repository
 
-> **My Web Development Learning Path**
+**My Web Development Learning Path**
 
-> *A simple, organized space to track my Backend Development learning journey*
+*A simple, organized space to track my Backend Development learning journey*
 
-----------
+
 ## 🎯 What's This?
 This repo documents my progress learning Python for backend development. Clean structure, practical projects, and clear notes.
-
----
 
 ## 📈 My Progress
 
@@ -28,12 +26,15 @@ This repo documents my progress learning Python for backend development. Clean s
 | **More about Databases** | ⏳ Pending |
 | **Learning Testing** | ⏳ Pending |
 
+
 > *[From Backend Developer Roadmap](https://roadmap.sh/backend)*
+
 
 ---
 
+
 # Current Learning Resources
------------------------------
+
 This small list includes learning resources I've used that offer free, high-quality materials like assignments, lectures, readings, documentation, and practice platforms.
 
 > [!WARNING]
