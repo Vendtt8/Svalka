@@ -40,7 +40,6 @@ This small list includes learning resources I've used that offer free, high-qual
 > [!WARNING]
 > This list is changing.
 
-
 ## Python Fundamentals
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Python For Beginners(RU)](https://stepik.org/course/58852/syllabus)

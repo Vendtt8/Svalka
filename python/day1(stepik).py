@@ -97,8 +97,44 @@
 # )
 
 
-a = 17 // (23 % 7)
-b = 34 % a * 5 - 29 % 4 * 3
-print(a * b)
-print(a)
-print(b)
+# a = 17 // (23 % 7)
+# b = 34 % a * 5 - 29 % 4 * 3
+# print(a * b)
+# print(a)
+# print(b)
+
+
+
+# # print('ж' * 3 + 'ж' * 1)
+
+# from math import sqrt, floor
+
+# print(round(sqrt(260)))
+
+# sqrt((x1 - x2)**2 + (y1 - y2)**2)
+
+x = 5
+
+y = 3
+
+a = x + y ** 2
+
+b = y ** 2 * x
+
+c = x ** y - x
+
+d = x ** (y - 2)
+
+e = x / y + 3
+
+f = x / y * 3
+
+g = x // y
+
+h = x % y
+
+m = x == y or (x - 4) >= 1
+
+k = x != 2 and y <= 5
+
+print(a,b,c,d,round(e, 2),f,g,h,m,k, sep='\n')
