@@ -113,28 +113,28 @@
 
 # sqrt((x1 - x2)**2 + (y1 - y2)**2)
 
-x = 5
+# x = 5
 
-y = 3
+# y = 3
 
-a = x + y ** 2
+# a = x + y ** 2
 
-b = y ** 2 * x
+# b = y ** 2 * x
 
-c = x ** y - x
+# c = x ** y - x
 
-d = x ** (y - 2)
+# d = x ** (y - 2)
 
-e = x / y + 3
+# e = x / y + 3
 
-f = x / y * 3
+# f = x / y * 3
 
-g = x // y
+# g = x // y
 
-h = x % y
+# h = x % y
 
-m = x == y or (x - 4) >= 1
+# m = x == y or (x - 4) >= 1
 
-k = x != 2 and y <= 5
+# k = x != 2 and y <= 5
 
-print(a,b,c,d,round(e, 2),f,g,h,m,k, sep='\n')
+# print(a,b,c,d,round(e, 2),f,g,h,m,k, sep='\n')
