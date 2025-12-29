@@ -1,30 +1,28 @@
-# My Backend Journey Repository
-
 **My Web Development Learning Path**
 
 *A simple, organized space to track my Backend Development learning journey*
 
 
-## 🎯 What's This?
+## What's This?
 This repo documents my progress learning Python for backend development. Clean structure, practical projects, and clear notes.
 
-## 📈 My Progress
+## My Progress
 
 | Area |Status                                                      |
 |------|:---------------------------------------------------------:|
-| **Internet** | 🔄 In Progress |
-| **Python Basics** | 🔄 In Progress |
-| **HTML/CSS Basics** | ⏳ Pending |
-| **JavaScript Basics** | ⏳ Pending |
-| **Python and JS Frameworks** | ⏳ Pending |
-| **Git and Github** | 🔄 In Progress |
-| **SQL Databases** | ⏳ Pending |
-| **REST API** | ⏳ Pending |
-| **JSON APIs** | ⏳ Pending |
-| **JWT Authentification** | ⏳ Pending |
-| **Caching/Redis** | ⏳ Pending |
-| **More about Databases** | ⏳ Pending |
-| **Learning Testing** | ⏳ Pending |
+| **Internet** | Done |
+| **Python Junior Level** | 1/5 is done |
+| **HTML/CSS Basics** | Not yet |
+| **JavaScript Basics** | Not yet |
+| **Python and JS Frameworks** | Not yet |
+| **Git and Github** | 1/4 is done |
+| **SQL Databases** | Not yet |
+| **REST API** | Not yet |
+| **JSON APIs** | Not yet |
+| **JWT Authentification** | Not yet |
+| **Caching/Redis** | Not yet |
+| **More about Databases** | Not yet |
+| **Learning Testing** | Not yet |
 
 
 > *[From Backend Developer Roadmap](https://roadmap.sh/backend)*
