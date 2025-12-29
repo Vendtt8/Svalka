@@ -117,3 +117,128 @@ def pairs(str1: str):
                 count += 1
 
     return count
+
+
+def change_min_max(str1: str):
+    ls = list(map(int, str1.split()))
+
+    maxind, max1 = ls.index(max(ls)), max(ls)
+    minind, min1 = ls.index(min(ls)), min(ls)
+
+    ls[maxind] = min1
+    ls[minind] = max1
+    return print(*ls, sep=" ")
+
+
+def cleancomments(num: str):
+    num = num.replace("#", "")
+    sad = list()
+
+    for i in range(int(num)):
+        s = input()
+        if "#" in s:
+            ind = s.index("#")
+            s = s[:ind]
+        sad.append(s.rstrip())
+
+    return print(*sad, sep="\n")
+
+
+def playlist(num: int):
+    ls = [input() for _ in range(num)]
+    ls.sort()
+    return print(*ls, sep="\n")
+
+
+def dunno():
+    return print(
+        *[
+            c**2
+            for c in [k for k in list(map(int, input().split())) if k % 2 == 0]
+            if (c**2) % 10 != 4
+        ]
+    )
+
+
+def print_perm_time_call(msc_time):  # 07:30
+    msc_time = list(map(int, msc_time.split(":")))  # [7, 30]
+    prm_time = msc_time
+    if msc_time[0] < 8:
+        prm_time[0] = prm_time[0] + 2  # [9, 30]
+        print(f"Созвон будет в {'0' + str(prm_time[0])}:{prm_time[1]}")
+    else:
+        print(f"Созвон будет в {prm_time[0]}:{prm_time[1]}")
+
+
+def print_symbol_counts(s):
+    ls = []
+    ls.extend(sorted(s.lower()))
+    ls_sym = []
+    for i in ls:
+        if i not in ls_sym:
+            ls_sym.append(i)
+    for i in ls_sym:
+        print(f"{i}: {ls.count(i)}")
+
+
+def convert_to_miles(km):
+    return km * 0.6214
+
+
+def code_format(s):
+    return f"<code>{s}</code>"
+
+
+def get_days(month: int):
+    return {
+        1: 31,
+        2: 28,
+        3: 31,
+        4: 30,
+        5: 31,
+        6: 30,
+        7: 31,
+        8: 31,
+        9: 30,
+        10: 31,
+        11: 30,
+        12: 31,
+    }[month]
+
+
+def round_to_int(num: float):
+    if num - int(num) < 0.5:
+        return int(num)
+    else:
+        return int(num) + 1
+
+
+def get_factors(num: int):
+    return [i for i in range(1, num + 1) if num % i == 0]
+
+
+def get_factors_count(num: int):
+    return len([i for i in range(1, num + 1) if num % i == 0])
+
+
+def get_unique(num: list):
+    result = []
+    for i in num:
+        if i not in result:
+            result.append(i)
+
+    return result
+
+
+def get_last_index(data: list, value: int):
+    if value in data:
+        return len(data) - data[::-1].index(value)
+    else:
+        return "ERROR!"
+
+
+def find_all(target: str, symbol: str):
+    return [i for i in range(len(target)) if target[i] == symbol]
+
+
+print(find_all("hello world", "l"))
